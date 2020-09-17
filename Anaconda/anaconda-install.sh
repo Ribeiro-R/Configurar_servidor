@@ -16,14 +16,11 @@ echo "Finished update and upgrade"
 cd /home/$USER/Downloads
 if [ -f ${CONDA_INSTALL} ]; then
     echo " "
-    echo "${CONDA_INSTALL} file found."
-    echo " "
+    echo -e "${CONDA_INSTALL} file found. \n"
 else
     echo " "
-    echo "${CONDA_INSTALL} file not found ."
-    echo " "
-    echo "Downloading ..."
-    echo " "
+    echo -e "${CONDA_INSTALL} file not found . \n"
+    echo -e "Downloading ... \n"
     wget https://repo.anaconda.com/archive/${CONDA_INSTALL}
 fi
 
