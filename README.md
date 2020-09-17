@@ -1,2 +1,2 @@
-# Configurar_servidor
-Scripts para configurar servidor
+# Scripts  de automatização
+Scripts para automatizar tarefas maçantes
