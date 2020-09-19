@@ -23,7 +23,7 @@ Agora é só executar.
 ./anaconda-install.sh
 ~~~
 
-## Criar Enviroment e testar
+## Criar Environment e testar
 
 Criar um environment e verificar se a GPU foi encontrada para ser utilizada pelo tensorflow.
 
