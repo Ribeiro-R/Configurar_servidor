@@ -13,12 +13,12 @@ git@github.com:Ribeiro-R/Scripts.git
 Em seguida, vá para a pasta e torne os script executável.
 
 ~~~bash
-cd Docker
+cd Ubuntu
 $ chmod +x ubuntu-install.sh
 ~~~
 
 Agora é só executar:
 
 ~~~bash
-./ubuntu-install.sh
+sudo ./ubuntu-install.sh
 ~~~

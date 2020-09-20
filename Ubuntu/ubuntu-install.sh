@@ -25,7 +25,7 @@ apt-get install -y -qq apt-transport-https > /dev/null
 apt-get install -y -qq wget > /dev/null
 apt-get install -y -qq gedit-latex-plugin > /dev/null
 apt-get install -y -qq texmaker > /dev/null
-apt-get install -y -qq texlive > /dev/null
+apt-get install -y -qq texlive-full > /dev/null
 
 ### EasyTAG ###
 add-apt-repository -y ppa:amigadave/ppa
