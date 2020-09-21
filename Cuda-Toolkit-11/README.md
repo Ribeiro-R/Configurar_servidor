@@ -23,7 +23,7 @@ Agora é só executar:
 sudo ./cuda11-install.sh
 ~~~
 
-Após a instalacão devemos recarregar o arquivo .bashrc
+Após a instalação devemos recarregar o arquivo .bashrc
 
 ~~~bash
 source ~/.bashrc
