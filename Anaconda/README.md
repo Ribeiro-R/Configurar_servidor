@@ -1,6 +1,6 @@
 # Instalação Anaconda
 
-Scripts para automatizar instalação do Anaconda.
+Script para automatizar instalação do Anaconda.
 
 ## Instalação
 

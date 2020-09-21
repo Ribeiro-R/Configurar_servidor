@@ -1,6 +1,6 @@
 # Instalação Kubernetes Ubuntu
 
-Scripts para automatizar instalação do Kubernetes localmente.
+Script para automatizar instalação do Kubernetes localmente.
 
 Kubernetes (K8s) é um sistema de código aberto para automatizar a implantação, escalonamento e gerenciamento de aplicativos em contêineres. <https://kubernetes.io>
 

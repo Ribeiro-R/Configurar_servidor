@@ -1,6 +1,6 @@
 # Instalação de pacotes e programas no Ubuntu
 
-Scripts para automatizar instalação de pacotes adicionais e programas no Ubuntu
+Script para automatizar instalação de pacotes adicionais e programas no Ubuntu
 
 ## Instalação
 

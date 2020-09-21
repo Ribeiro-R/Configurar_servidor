@@ -1,6 +1,6 @@
 # Instalação Docker Engine e Docker Compose no Ubuntu
 
-Scripts para automatizar instalação do docker e docker-compose no Ubuntu
+Script para automatizar instalação do docker e docker-compose no Ubuntu
 
 ## Instalação
 
