@@ -23,7 +23,13 @@ Agora é só executar:
 sudo ./cuda11-install.sh
 ~~~
 
-Após a instalação devemos recarregar o arquivo .bashrc
+Após a instalação devemos adicionar o caminho dos binários do cuda no arquivo .bashrc
+
+~~~bash
+echo 'export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}' >> ~/.bashrc
+~~~
+
+e recarregar o arquivo .bashrc
 
 ~~~bash
 source ~/.bashrc
