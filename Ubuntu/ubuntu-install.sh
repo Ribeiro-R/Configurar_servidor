@@ -14,6 +14,7 @@ apt-get upgrade -y -qq
 echo -e "Finished Update and Upgrade \n"
 
 echo -e "Installing Packages from repository ... \n"
+apt-get install -y -qq gnome-tweak-tool > /dev/null
 apt-get install -y -qq gparted > /dev/null
 apt-get install -y -qq openssh-server > /dev/null
 apt-get install -y -qq sqlite3 > /dev/null
