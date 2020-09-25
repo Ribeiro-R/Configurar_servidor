@@ -23,6 +23,24 @@ Agora é só executar:
 ./docker-install.sh
 ~~~
 
+Após instalação vamos adicionar o usuário ao grupo docker
+
+~~~bash
+sudo usermod -aG docker ${USER}
+~~~
+
+e confirmar o novo usuário
+
+~~~bash
+su - ${USER}
+~~~
+
+Podemos verificar se o docker foi instalado corretamente rodando hello-word do docker
+
+~~~bash
+docker run hello-world
+~~~
+
 ## Remover Docker e o Docker Compose
 
 Para remover Docker Engine, CLI e Containerd packages:

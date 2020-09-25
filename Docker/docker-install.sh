@@ -1,5 +1,9 @@
 #!/bin/bash
 
+RED='\033[0;31m'
+NC='\033[0m'
+BIYellow='\033[1;93m'
+
 # Docker compose releases
 # https://github.com/docker/compose/releases
 DOCKER_COMPOSE_RELEASE="1.27.3"
@@ -36,21 +40,6 @@ apt-cache policy docker-ce
 ## INSTALL DOCKER ENGINE ##
 sudo apt-get install -yy docker-ce docker-ce-cli containerd.io
 
-### MANAGE DOCKER AS A NON-ROOT USER ###
-
-# Add your user to the docker group
-sudo usermod -aG docker ${USER}
-# # Apply the new group membership
-# echo "Confirm new group membership:"
-# su - ${USER}
-# # Check that your user is now added to the docker group
-# echo "Check user:"
-# id -nG
-
-### VERIFY THAT YOU CAN RUN DOCKER ###
-echo "run hello-world from docker"
-docker run hello-world
-
 #### Install Docker Compose ####
 
 # Go to Downloads folder
@@ -71,6 +60,16 @@ sudo chmod +x /usr/local/bin/docker-compose
 # Test the installation
 echo "Show current docker compose version:"
 docker-compose --version
+
+echo -e "${BIYellow}-----> AFTER INSTALLATION <-----${NC} \n"
+echo -e "${BIYellow}Manage Docker as a non-root user ${NC}"
+echo -e "Add your user to the docker group:${RED} sudo usermod -aG docker \${USER} ${NC} \n"
+echo -e "${BIYellow}Apply the new group membership${NC}"
+echo -e "Confirm new group membership:${RED} su - \${USER} ${NC} \n"
+echo -e "${BIYellow}Check that your user is now added to the docker group${NC}"
+echo -e "Check user:${RED} id -nG ${NC} \n"
+echo -e "${BIYellow}Verify that you can run docker${NC}"
+echo -e "Run hello-world from docker:${RED} docker run hello-world ${NC} \n"
 
 #### Uninstall Docker Engine ####
 
