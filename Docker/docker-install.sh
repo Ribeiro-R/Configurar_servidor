@@ -40,12 +40,12 @@ sudo apt-get install -yy docker-ce docker-ce-cli containerd.io
 
 # Add your user to the docker group
 sudo usermod -aG docker ${USER}
-# Apply the new group membership
-echo "Confirm new group membership:"
-su - ${USER}
-# Check that your user is now added to the docker group
-echo "Check user:"
-id -nG
+# # Apply the new group membership
+# echo "Confirm new group membership:"
+# su - ${USER}
+# # Check that your user is now added to the docker group
+# echo "Check user:"
+# id -nG
 
 ### VERIFY THAT YOU CAN RUN DOCKER ###
 echo "run hello-world from docker"
